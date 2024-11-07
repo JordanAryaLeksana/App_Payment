@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:payment_app/pages/Dashboard.dart';
 import 'package:payment_app/pages/Home.dart';
 
 
@@ -18,8 +19,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: 'Poppins'),
-      home: const HomePages(),
+      theme: ThemeData(fontFamily: 'Roboto'),
+      home: const Dashboard(),
     );
     
   }
