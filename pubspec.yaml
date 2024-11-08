@@ -86,8 +86,7 @@ flutter:
           weight: 900
         - asset: fonts/Roboto-Medium.ttf
           weight: 400
-        - asset: fonts/Roboto-SemiBold.ttf
-          weight: 600
+  
   
     
   
